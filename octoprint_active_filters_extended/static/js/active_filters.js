@@ -12,7 +12,7 @@ $(function() {
 			});
 			localStorage.setItem('terminal.activeFilters', ko.toJSON(cleanValues));
 			
-			terminal.activeFilters = terminal.activeFilters.extend({ persist: 'terminal.activeFilters' });
+			terminal.activeFilters = terminal.activeFilters.extend({ persist: { local: "terminal.activeFilters" } });
 		}
 	}
 
