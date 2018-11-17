@@ -1,10 +1,17 @@
 import octoprint.plugin
 
-class ActiveFiltersPlugin(octoprint.plugin.AssetPlugin):
+class ActiveFiltersPlugin(octoprint.plugin.AssetPlugin,octoprint.plugin.SettingsPlugin):
 
 	def get_assets(self):
 		return dict(
 			js=["js/knockout.observableStorage.js", "js/active_filters.js"]
+		)
+		
+	##~~ SettingsPlugin mixin
+	
+	def get_settings_defaults(self):
+		return dict(
+			activeFilters = []
 		)
 
 	def get_version(self):
@@ -19,11 +26,11 @@ class ActiveFiltersPlugin(octoprint.plugin.AssetPlugin):
 				# version check: github repository
 				type="github_release",
 				user="jneilliii",
-				repo="OctoPrint-ActiveFilters",
+				repo="OctoPrint-ActiveFiltersExtended",
 				current=self._plugin_version,
 
 				# update method: pip
-				pip="https://github.com/jneilliii/OctoPrint-ActiveFilters/archive/{target_version}.zip"
+				pip="https://github.com/jneilliii/OctoPrint-ActiveFiltersExtended/archive/{target_version}.zip"
 			)
 		)
 

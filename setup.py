@@ -14,7 +14,7 @@ plugin_package = "octoprint_active_filters_extended"
 plugin_name = "OctoPrint-ActiveFiltersExtended"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "0.0.1"
+plugin_version = "0.0.2"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
@@ -27,7 +27,7 @@ plugin_author = "jneilliii"
 plugin_author_email = "jneilliii+github@gmail.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/jneilliii/OctoPrint-ActiveFilters"
+plugin_url = "https://github.com/jneilliii/OctoPrint-ActiveFiltersExtended"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"
