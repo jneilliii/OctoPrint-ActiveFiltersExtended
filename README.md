@@ -9,7 +9,7 @@ This plugin makes use of [knockout.observableStorage](https://github.com/Maultas
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/jneilliii/Octoprint-ActiveFiltersExtended/archive/master.zip
+    https://github.com/jneilliii/OctoPrint-ActiveFiltersExtended/archive/master.zip
 
 ## Get Help
 
