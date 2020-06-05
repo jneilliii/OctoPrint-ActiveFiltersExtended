@@ -9,7 +9,7 @@ This plugin makes use of [knockout.observableStorage](https://github.com/Maultas
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/jneilliii/Octoprint-ActiveFiltersExtended/archive/master.zip
+    https://github.com/jneilliii/OctoPrint-ActiveFiltersExtended/archive/master.zip
 
 ## Get Help
 
@@ -19,13 +19,13 @@ If you experience issues with this plugin or need assistance please use the issu
 
 Check out my other plugins [here](https://plugins.octoprint.org/by_author/#jneilliii)
 
+### Sponsors
+- Andreas Lindermayr
+- [@Mearman](https://github.com/Mearman)
+
 ### Support My Efforts
-I, jneilliii, programmed this plugin for fun and do my best effort to support those that have issues with it, please return the favor and leave me a tip if you find this plugin helpful.
+I, jneilliii, programmed this plugin for fun and do my best effort to support those that have issues with it, please return the favor and leave me a tip or become a Patron if you find this plugin helpful and want me to continue future development.
 
 [![Patreon](patreon-with-text-new.png)](https://www.patreon.com/jneilliii) [![paypal](paypal-with-text.png)](https://paypal.me/jneilliii)
 
 <small>No paypal.me? Send funds via PayPal to jneilliii&#64;gmail&#46;com</small>
-
-### Supporters
-- Andreas Lindermayr
-- @Mearmsn
